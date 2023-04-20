@@ -1,0 +1,27 @@
+.main-container  {
+    background: url("https://png.pngtree.com/back_origin_pic/04/47/74/63cfcf50d02f21d931fc87128a23cbd1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input-container {
+    display: flex;
+}
+
+.input-group {
+    display: flex;
+}
+
+form .input-group input {
+    width: 100%; border: none;
+    outline: none;
+    padding: 7px 3px; margin: 0 10px;
+}
+
+form label {
+    display: block; color: #fff;
+    margin: 15px 0 5px 0;
+}
+
+form input[type = submit], form input[type = reset] {
+    margin-top: 18px;
+}
